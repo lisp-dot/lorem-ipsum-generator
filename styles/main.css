@@ -1,0 +1,53 @@
+@import url(http://fonts.googleapis.com/css?family=Varela+Round);
+@import url(http://necolas.github.io/normalize.css/3.0.2/normalize.css);
+
+body {
+    background-image: url('./bg-cyceron.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    /* text-align: center; */
+    margin: 50px auto;
+    max-width: 550px;
+    padding: 0 40px;
+    font: 18px normal 'Varela Round', Helvetica, serif;
+    color: #777B7E;
+}
+
+fieldset {
+    margin: 50px auto;
+    width: 500px;
+}
+
+.slider {
+    width: 500px;
+}
+
+input[type=radio]{
+    
+    width: 45px;
+    height: 15px;
+    background: #555;
+    border-radius: 15px;
+}
+
+input[type=checkbox]{
+    width: 45px;
+    height: 15px;
+    background: #555;
+    border-radius: 15px;
+  }
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 40px 0 0;
+}
+
+li {
+    display: list-item;
+    width: 100%;
+    padding: 22px 0;
+    margin: 0;
+    border-top: 1px solid #D5DDE4;
+}

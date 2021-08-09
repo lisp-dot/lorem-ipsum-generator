@@ -1,10 +1,8 @@
-# lorem-ipsum-generator
+## LOREM IPSUM GENERATOR - JUST LOREM IT!
 
 ## Table of contents
 *[General info](#general-info)
-
 *[Technologies](#technologies)
-
 *[Launch project](#launch-project)
 
 ## General info

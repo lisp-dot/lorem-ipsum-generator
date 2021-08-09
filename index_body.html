@@ -1,0 +1,31 @@
+<body>
+    <h1>Lorem Ipsum Generator</h1>
+    <form method='post' action='/lorem'>
+        <fieldset>
+            <legend>How many paragraphs do you want to generate?</legend>
+            <input type="range" min="1" max="100" value="3" class="slider" id="myRange" name='paragraphs'><label for='paragraphs' id='showedValueOfParagraphs'>3</label>
+        </fieldset>
+        <fieldset>
+            <legend>Choose length of paragraphs:</legend>
+            <p><label><input type="radio" name="length" value="short">Short</label></p>
+            <p><label><input type="radio" name="length" value="medium">Medium</label></p>
+            <p><label><input type="radio" name="length" value="long">Long</label></p>
+            <p><label><input type="radio" name="length" value="verylong">Very long!</label></p>
+        </fieldset>
+        <fieldset>
+            <legend>Customize paragraphs:</legend>
+            <p><label><input type="checkbox" name="unorederedList" value="ul">Unordered list</label></p>
+            <p><label><input type="checkbox" name="orderedList" value="ol">Ordered list</label></p>
+            <p><label><input type="checkbox" name="descriptionList" value="dl">Description list</label></p>
+            <p><label><input type="checkbox" name="blockQuotes" value="bq">Blockquotes</label></p>
+            <p><label><input type="checkbox" name="headers" value="headers">Headers</label></p>
+            <p><label><input type="checkbox" name="allCaps" value="allcaps">ALL CAPS</label></p>
+        </fieldset>
+        <!--button does work as it is, but shouldn't there be an action attribute?-->
+        <button>Lorem it!</button>
+    </form>
+<script>
+    const paragraphsSlider = document.querySelector('#myRange');
+    const showedValueOfParagraphs = document.querySelector('#showedValueOfParagraphs');
+    paragraphsSlider.addEventListener('mousemove', () => showedValueOfParagraphs.innerHTML = paragraphsSlider.value);
+</script>
