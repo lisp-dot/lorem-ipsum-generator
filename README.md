@@ -2,7 +2,9 @@
 
 ## Table of contents
 *[General info](#general-info)
+
 *[Technologies](#technologies)
+
 *[Launch project](#launch-project)
 
 ## General info
